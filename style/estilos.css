@@ -1,0 +1,391 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&family=Roboto:ital@0;1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:aliceblue;
+}
+
+header{
+    height: 60px;
+    background-color: rgb(24, 26, 153);
+}
+
+a{
+    text-decoration: none;
+    color:aliceblue;
+    padding: 10px 20px;
+}
+
+
+a:hover{
+    color:darkgoldenrod ;
+}
+
+ul li{
+    list-style-type:none;
+    margin-top: 20px;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+}
+
+h2{
+    text-align:left;
+    padding: 30px 60px;
+}
+
+.col{
+    background-color: rgb(24, 26, 153);
+}
+
+/*Clase dentro header*/
+.logoF{
+    width: 20px;
+    height: 20px;
+}
+
+/*------------------------------------------------*/
+
+/*Clases dentro main*/
+.fondoF{
+    width: 800px;
+    height: 500px;
+}
+
+.tituloP{
+    font-size:xx-large;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.parrafoI{
+    text-align: center;
+    margin: 20px 10px;
+}
+
+.imgF{
+    padding: 40px 80px;
+    text-align: center;
+}
+
+/*-------------------------------------------------*/
+
+/*Clases dentro del html de nosotros*/
+.tituloN{
+    color: black;
+    text-align: center;
+    margin: 40px;
+    margin: 40px;
+    font-size:xx-large;
+}
+
+.nosotrosF{
+    text-align: center;
+    margin: 40px 60px;
+    font-size:medium;
+}
+
+.mv{
+    padding: 0px 100px;
+}
+
+.mvp{
+    margin-left: 60px;
+}
+
+.imgflex{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.nosotrosI{
+    padding: 40px;
+    margin: 40px;
+    width: 200px;
+    height: 200px;
+}
+
+/*--------------------------------*/
+
+/*Clases dentro del html de categorias*/
+.tituloC{
+    padding: 20px;
+    margin: 20px;
+    font-size: xx-large;
+    text-align: center;
+}
+
+.categoriaflex{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px;
+    margin: 20px;
+}
+
+.hijoC{
+    align-content: center;
+}
+
+.subtc{
+    text-align: center;
+}
+
+.containerI{
+    align-content: center;
+}
+
+.imgCat{
+    border-radius: 5%;
+    width: 60%;
+    height: 30%;
+    padding-left: 40px;
+}
+
+.cattext{
+    margin: 10px;
+    text-align: left;
+}
+
+/*------------------------------------------------*/
+
+/*Clases dentro del html de servicios*/
+.tituloS{
+    padding: 20px;
+    margin: 20px;
+    font-size: xx-large;
+    text-align: center;
+}
+
+.servicios{
+    text-align: center;
+    margin: 20px;
+}
+
+.s{
+    margin: 40px 40px;
+}
+
+.prod{
+    text-align: center;
+    border: solid;
+    margin: 0px;
+}
+
+.categoriaI{
+    margin: 20px;
+    text-align: center;
+}
+/*-------------------------------------------------*/
+
+/*Clases del HTML contactos*/
+.contactT{
+    font-size: xx-large;
+    text-transform: uppercase;
+    text-align:center;
+    margin: 20px;
+}
+
+.Conctflex{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+}
+
+.hijoconct{
+    align-items: center;
+}
+
+.formCont{
+    margin: 10px;
+}
+
+.infconct{
+    margin: 10px;
+}
+
+/*-------------------------------------------------*/
+
+/*Clases dentro del html de login*/
+.flexlogin{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hijologin{
+    margin: 10px;
+}
+
+.logininfo{
+    margin: 10px;
+}
+
+/*--------------------------------------------------*/
+
+/*Clases del HTML productos*/
+.prod{
+    margin: 40px;
+    font-size:xx-large;
+    text-transform: uppercase;
+    text-align: center;
+    border-style: none;
+}
+
+.classgrid{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(4,220px);
+    grid-template-rows: repeat(4,220px);
+    gap: 15px;
+}
+
+.gridProd{
+    overflow:hidden;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.gridProd img{
+    width: 100%;
+    object-fit:cover;
+}
+
+/*----------------------------------------------------*/
+
+/*Clases del HTML ubicación*/
+.ubi{
+    margin: 40px;
+    font-size:xx-large;
+    text-transform: uppercase;
+    text-align: center;
+    border-style: none;
+}
+
+.clasgridUbi{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(2,220px);
+    grid-template-rows: repeat(3,220px);
+    gap: 15px;
+}
+
+.gridUbi{
+    overflow:hidden;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.gridUbi img{
+    width: 100%;
+    object-fit:cover;
+}
+
+.imgFerreteria{
+    grid-column:1/3 ;
+    grid-row: 3/4;
+    margin-bottom: 80px;
+}
+/*-----------------------------------------------------*/
+
+/*Clases del HTML registro*/
+.formularioR{
+    margin: 40px;
+}
+/*------------------------------------------------------*/
+.cont{
+    text-align: justify;
+    padding: 20px 40px;
+}
+
+.iconos{
+    width: 15px;
+    height: 15px;
+}
+.iconos{
+    width: 30;
+    height: 24;
+}
+
+footer{
+    height: 270px;
+    background-color: rgb(24, 26, 153);
+}
+
+/*Clases dentro del footer*/
+.piepaginaflex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hijoflex{
+    color: aliceblue;
+}
+
+.pief{
+    padding: 10px;
+    margin: 20px;
+}
+
+.iconF{
+    width: 40px;
+    height: 40px;
+}
+
+.iconI{
+    width: 40px;
+    height: 40px;
+    border: 2px solid rgb(12, 12, 12);
+    border-radius: 10px;
+}
+
+/*--------------------------------------*/
+
+/*Responsive*/
+/*Ancho minimo*/
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px){
+    
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px){
+
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px){
+
+}
+
+
+/*Ancho maximo*/
+/*Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px){
+
+}
+
+/*Medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px){
+
+}
+
+/*Large devices (desktops, less than 1200px)*/
+@media (max-width: 1199.98px){
+
+}
